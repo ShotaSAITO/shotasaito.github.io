@@ -1,6 +1,7 @@
 ---
 title: "Limitation of graph $p$-Laplacian for multi-class graph clustering"
 date: 2023-07-19T15:34:30-00:00
+show_date: true
 categories:
   - blog
 tags:
