@@ -70,7 +70,7 @@ One wet thing is that we see the connection between SSL and effective resistance
 Let us consider the following SSL problem.
 
 $$
-\mathbf{x}^{ij,p*}:=\argmin_{\mathbf{x}} S_{G,p} (\mathbf{x}) \quad \text{s.t. } x_{i} - x_{j} = 1 \quad (\dagger)
+\mathbf{x}^{ij,p*}:=\text{argmin}_{\mathbf{x}} S_{G,p} (\mathbf{x}) \quad \text{s.t. } x_{i} - x_{j} = 1 \quad (\dagger)
 $$
 
 Then, for the $p=2$ case, the solution of this SSL $\mathbf{x}^{ij,2*}$ and the effective resistance has a connection as
