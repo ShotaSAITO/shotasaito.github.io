@@ -99,8 +99,8 @@ The reason I speculate is that several papers pointed out the limitations.
 Consider constructing a graph from vector data, such as Gaussian kernel or $\epsilon$-graph. 
 Under this assumption, the major papers point out this limitation, e.g., 
 
-- Nadler et al. Semi-Supervised Learning with the Graph Laplacian: The Limit of Infinite Unlabelled Data[nadler] In Proc. NIPS, 2009.
-- von Luxburg et al. Getting lost in space: Large sample analysis of the resistance distance[vonluxburg] In Proc. NIPS, 2010
+- Nadler et al. [Semi-Supervised Learning with the Graph Laplacian: The Limit of Infinite Unlabelled Data][nadler] In Proc. NIPS, 2009.
+- von Luxburg et al. [Getting lost in space: Large sample analysis of the resistance distance][vonluxburg] In Proc. NIPS, 2010
 
 What sensational headlines from a tabloid called NIPS[^NIPS].
 This sounds scandalous for effective resistance.
