@@ -166,6 +166,15 @@ If one of the SSL or effective resistance is meaningless, the other is also mean
 
 ## Hero Isn't Perfect
 
+By generalizing from 2 to $p$, the limitation of resistance is overcome. 
+Yes, peace prevail on earth again.
+But, now the $p$-resistance gets the center of the graph ML and may dance under the limelight...
+But this thing doesn't happen so far. 
+
+The reason is that, $p$-resistance is computationally expensive, especially for the many pairs.
+The 2-resistance has some way we can compute faster.
+However, we have not had such a thing for $p$-resistance.
+[Our recent paper][approx] proposes some way for this.
 
 
 ## Conclusion
@@ -185,9 +194,7 @@ The relationships $(\ast)$ and $(\ddagger)$ hold for any graph that is not neces
 ***
 Advert:
 
-We use the relationship $(\ddagger)$ to justify the use of $p$-resistance as a distance for the multi-class clustering.
-
-If you are interested in one of the applications of resistance or $p$-resistance, please see Sec. 4.1 in [our paper][approx].
+Again, our paper proposes some approximated way where we can compute the $p$-resistance faster. If you are interested in, please read our paper, or see [my previous blog article][presistancepost].
 
 
 ***
@@ -213,3 +220,4 @@ Appendix A provides a comprehensive review of the topic of this article, the lim
 [alamgir]: https://papers.nips.cc/paper/2011/hash/07cdfd23373b17c6b337251c22b7ea57-Abstract.html
 [Alaoui]: http://proceedings.mlr.press/v49/elalaoui16.pdf
 [Slepcev]: https://arxiv.org/pdf/1707.06213
+[presistancepost]: {{ site.url }}{{ site.baseurl }}/blog/effective-p-resistance/
