@@ -206,7 +206,7 @@ The energy by Alamgir and von Luxburg is more compatible with literature from ci
 
 [^opt]: Even though this constrained optimization problem can be rewritten less computationally expensive unconstrained optimization problem, it is still expensive to compute.
 
-[plaplacianpost]: {{ site.url }}{{ site.baseurl }}/blog/limitaition-of-graph-p-laplacian/
+[plaplacianpost]: {{ site.url }}{{ site.baseurl }}/blog/limitation-of-graph-p-laplacian/
 [resistancepost]: {{ site.url }}{{ site.baseurl }}/blog/effective-resistance/
 [triangle]: https://discovery.ucl.ac.uk/id/eprint/1311162/
 [approx]: https://arxiv.org/abs/2306.08617

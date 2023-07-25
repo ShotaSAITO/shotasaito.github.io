@@ -197,7 +197,7 @@ I have a confession to make. Although I took a course in electric circuits while
 
 
 
-[prevpost]: {{ site.url }}{{ site.baseurl }}/blog/limitaition-of-graph-p-laplacian/
+[prevpost]: {{ site.url }}{{ site.baseurl }}/blog/limitation-of-graph-p-laplacian/
 [nextpost]: {{ site.url }}{{ site.baseurl }}/blog/effective-p-resistance/
 [triangle]: https://discovery.ucl.ac.uk/id/eprint/1311162/
 [approx]: https://arxiv.org/abs/2306.08617

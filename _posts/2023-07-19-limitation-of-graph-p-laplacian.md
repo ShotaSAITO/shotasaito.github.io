@@ -78,7 +78,7 @@ If people see the 2-seminorm, it is one of the universe principles that people w
 Here, I define the graph $p$-seminorm as
 
 $$
-\|\mathbf{x}\|_{G,p} := \|C\mathbf{x}\|_{\mathbf{w},p} = \left(\sum_{ij \in V} a_{ij} |x_{i} - x_{j}|^{p} \right)^{1/p}. \quad (\ddagger)
+\|\mathbf{x}\|_{G,p} := \|C\mathbf{x}\|_{\mathbf{w},p} = \left(\sum_{i,j \in V} a_{ij} |x_{i} - x_{j}|^{p} \right)^{1/p}. \quad (\ddagger)
 $$
 
 By varying this $p$, the community observes "performance improvement" in the areas like clustering, semi-supervised learning, online learning, and more.
