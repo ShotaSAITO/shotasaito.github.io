@@ -1,4 +1,4 @@
-\---
+---
 title: "Multi-class Graph Clustering via Approximated $p$-Resistance (Short Preview of Paper)"
 date: 2023-07-25T09:34:30-00:00
 show_date: true
@@ -99,7 +99,7 @@ We now also provide some theoretical justification for exploiting $p$-resistance
 
 ## Collection of "Clips"
 
-Now, I quickly wrapped up what is going on in our ICML paper, but the above is a preview. But I have a confession to make.
+Now, I quickly wrapped up what is going on in our ICML paper, but the above is a preview. Here, I have a confession to make.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is a promotional blog for my recent paper to ICML 2023. I&#39;ve almost never finished reading such promotional blogs because it&#39;s often too short to understand or too long for the blog format. Instead, I try to &quot;clip&quot; and highlight some parts of the paper at a reasonable length <a href="https://t.co/iEujeu4rxi">https://t.co/iEujeu4rxi</a></p>&mdash; Shota Saito (@ShotaSAITO) <a href="https://twitter.com/ShotaSAITO/status/1682009332479848451?ref_src=twsrc%5Etfw">July 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
