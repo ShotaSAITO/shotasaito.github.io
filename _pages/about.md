@@ -11,9 +11,7 @@ I'm Shota, a Ph.D student at University College London. I work on graph machine 
 - Apr 2019 - present, Ph.D Student, 
      Department of Computer Science, University College London.
      Supervisors: Prof. Mark Herbster and Prof. John Shawe-Taylor.
-
 - Apr 2012 - Mar 2015,  MSc, Department of Mathematical Informatics, The University of Tokyo
-
 - Apr 2008 - Mar 2012, BEng,
 Department of Mathematical Engineering and Information Physics, The University of Tokyo
 
@@ -29,7 +27,7 @@ See the full list at [Google Scholar](https://scholar.google.com/citations?user=
 
 ### Conferences/Journals
 
-- Shota Saito and Mark Herbster. Multi-class Graph Clustering via Approximated Effective p-Resistance, In Proc. ICML, to appear 2023 [[arXiv](https://arxiv.org/abs/2306.08617)][[code](https://github.com/ShotaSAITO/approximated-presistance)]
+- Shota Saito and Mark Herbster. Multi-class Graph Clustering via Approximated Effective p-Resistance, In Proc. ICML, 29697-29733, 2023 [[arXiv](https://arxiv.org/abs/2306.08617)][[code](https://github.com/ShotaSAITO/approximated-presistance)][[poster](/assets/papers/icml23_poster.pdf)][[link](https://proceedings.mlr.press/v202/saito23a.html)][[video](https://icml.cc/virtual/2023/poster/24115)]
 
 - Shota Saito and Mark Herbster. Generalizing p-Laplacian: Spectral Hypergraph Theory and a Partitioning Algorithm. Mach. Learn. (2023) [[Link](https://link.springer.com/article/10.1007/s10994-022-06264-y)]
 
