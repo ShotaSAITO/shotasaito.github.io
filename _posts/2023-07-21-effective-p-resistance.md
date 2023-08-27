@@ -75,7 +75,7 @@ With Equation $(\dagger)$, we compute $L^{+}$ first, and we obtain the effective
 
 ## $p$-Resistance and Triangle Inequality
 
-Like the generalization from the graph Laplacian to $p$-Laplacian, it is one of the universe principles that people want to expand to $p$-seminorm (See [my previous post][plaplacianost] on this).
+Like the generalization from the graph Laplacian to $p$-Laplacian, it is one of the universe principles that people want to expand to $p$-seminorm (See [my previous post][plaplacianpost] on this).
 The effective $p$-resistance is defined as
 
 $$
@@ -135,7 +135,7 @@ As I lightly mentioned above, the $p$ of $p$-resistance captures a topology of t
 - When $p = 2$, this is the standard effective resistance.
 - When $p \to \infty$, the $p$-resistance corresponds to the shortest path.
 
-See [Alamgir and von Luxburg](phase) (2011, NIPS) for the details.
+See [Alamgir and von Luxburg][phase] (2011, NIPS) for the details.
 
 
 The following are illustrative examples of using $p$-resistance for the clustering.
