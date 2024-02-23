@@ -27,7 +27,7 @@ See the full list at [Google Scholar](https://scholar.google.com/citations?user=
 
 ### Preprints
 
-- Stephen Pasteris, Alberto Rumi, Maximilian Thiessen, **Shota Saito**, Atsushi Miyauchi, Fabio Vitale and Mark Herbster.  Bandits with Abstention Under Expert Advice. [[arXiv](https://arxiv.org/abs/2402.14585)]
+- Stephen Pasteris, Alberto Rumi, Maximilian Thiessen, **Shota Saito**, Atsushi Miyauchi, Fabio Vitale and Mark Herbster.  Bandits with Abstention Under Expert Advice. 2024 [[arXiv](https://arxiv.org/abs/2402.14585)]
 
 ### Conferences/Journals
 
