@@ -19,7 +19,7 @@ _Note: This article is a promotion of [our paper][modeling] at AAAI2022._
 
 ***
 
-## Ever Wonder about an Extension from Pairwise Similarity to Multi-way Similarity
+## Ever Wonder about an Extension from Pairwise Similarity to Multi-way Similarity?
 
 We model a pairwise similarity of vector data using, say, a Gaussian.
 We use this similarity as a graph and apply a machine learning method.
@@ -82,7 +82,7 @@ $$
 
 ## Hypergraph Modeling, how?
 
-Let $H=V(V,E)$ be a $2m$-uniform hypergraph, where $m \in \mathbb{N}$. 
+Let $H=(V,E)$ be a $2m$-uniform hypergraph, where $m \in \mathbb{N}$. 
 A $2m$-uniform hypergraph is a generalized graph; each edge is allowed to connect $2m$ vertices.
 This hypergraph is represented by a tensor $\mathcal{A} \in \mathbb{R}^{\underbrace{n \times \ldots \times n}_{2m}}$
 
