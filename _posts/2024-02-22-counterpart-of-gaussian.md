@@ -86,10 +86,18 @@ Let $H=V(V,E)$ be a $2m$-uniform hypergraph, where $m \in \mathbb{N}$.
 A $2m$-uniform hypergraph is a generalized graph; each edge is allowed to connect $2m$ vertices.
 This hypergraph is represented by a tensor $\mathcal{A} \in \mathbb{R}^{\underbrace{n \times \ldots \times n}_{2m}}$
 
-We here assume a $2m$ data points $\mathbf{x}_{i_{\cdot}}\in\mathbf{X}$ and $\mathbf{X} \subseteq \mathbb{R}^{d}$. 
-We propose to formulate even $2m$ multi-way similarity function $\kappa^{(m)}(\mathbf{x}_{i_{1}},\ldots,\mathbf{x}_{i_{2m}}) : \mathbf{X}^{m} \times\mathbf{X}^{m}\rightarrow\mathbb{R}$ as
+We here assume $2m$ data points 
 
-I hereby define a kernel function $\kappa^{(2m)}$ which I shall call as _biclique kernel_ as 
+$$
+\mathbf{x}_{i_{1}},\ldots,\mathbf{x}_{i_{2m}} \in \mathbf{X}.
+$$
+
+I propose to formulate even $2m$ multi-way similarity function 
+
+$$\kappa^{(2m)}(\mathbf{x}_{i_{1}},\ldots,\mathbf{x}_{i_{2m}}) : \mathbf{X}^{m} \times\mathbf{X}^{m}\rightarrow\mathbb{R}$$
+ 
+as follows. I hereby define a kernel function $\kappa^{(2m)}$ which I shall call as _biclique kernel_ as 
+
 $$
     \kappa^{(2m)} (\mathbf{x}_{i_{1}}, \ldots, \mathbf{x}_{2m}) := \sum_{\gamma=1}^{m}\sum_{\nu=m+1}^{2m} \kappa(\mathbf{x}_{i_{\gamma}},\mathbf{t}_{l_{\nu}} ), 
 $$
@@ -108,10 +116,8 @@ $$
 
 If you use a Gaussian kernel, then
 
-$$
-    \kappa^{(4)} (\mathbf{x}_{i_{1}}, \ldots, \mathbf{x}_{4}) = \exp(-\gamma \|\mathbf{x}_1 - \mathbf{t}_1\|^2) + \exp(-\gamma\|\mathbf{x}_1 - \mathbf{t}_2\|^2) 
-    +\exp(-\gamma\|\mathbf{x}_2 - \mathbf{t}_1\|^2) + \exp(-\gamma\|\mathbf{x}_2 - \mathbf{t}_2\|^2).
-$$
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hypergraphmodeling/example4gaussian.png" alt="">
+
 
 My proposal is that apply hypergraph machine learning methods to the hypergraph constructed by this biclique kernel.
 
@@ -131,10 +137,14 @@ Looking back at the graph case, we have several justifications for the Gaussian 
 
 
 First and foremost, the kernel function itself has rich theoretical foundations.
-Consider a _gram matrix_ $K$ for a kernel function and $n$ data points $(\mathbf{x}_{1}, \ldots, \mathbf{x}_{n})$, define as
+Assume that we have $n$ data points $\mathbf{x}_{i} \in \mathbf{X}$.
+
+Then, a _gram matrix_ $K$ for a kernel function $\kappa$ which is defined as
+
 $$
-    K_{ij} = \kappa (\mathbf{x}_{i}, \mathbf{x}_{j}).
+    K_{ij} := \kappa (\mathbf{x}_{i}, \mathbf{x}_{j}).
 $$
+
 Then, $K$ is a semi-definite. Also, if some matrix $K$ is semi-definite, then for $n$ data points we have a feature map that leads to $K$.
 This is one of the most foundational properties of kernel function, and we have richer theoretical properties and characteristics from this foundation.
 
@@ -146,6 +156,7 @@ Another way to justify this is the so-called _spectral connection_, which is est
 This connection provides a theoretical connection between spectral clustering and weighted kernel $k$-means.
 Spectral clustering is a very established clustering method for a graph; see the [seminal tutorial paper][luxburg] for the details.
 Putting $\phi(\mathbf{x})$ to a weighted $k$-means framework, its $k$-means objective function is equivalent to the spectral clustering for a graph $A$, which is
+
 $$
     A_{ij} := \phi(\mathbf{x}_{i})^{\top} \phi(\mathbf{x}_{j}). 
 $$
@@ -158,13 +169,17 @@ Let's move on to hypergraph.
 First, for the tensors, we have a similar notion of semi-definiteness.
 
 A $m$-order tensor $\mathcal{A}$ is semidefinite if for any $\mathbf{x} \in \mathbb{R}^{n}$
+
 $$
     \sum_{i_{1},\ldots, i_{m}} \mathcal{A}_{i_{1}\ldots i_{m}} x_{i_{1}} \ldots x_{i_{m}} \geq 0.
 $$
+
 Note that $m$ needs to be even since for odd $m$ this polynomial takes both of positive and negative values. For example of $m=3$, we have 
+
 $$
     \sum_{i_{1},i_{2}, i_{3}} \mathcal{A}_{i_{1}, i_{2}, i_{3}} (-x_{i_{1}}) (-x_{i_{2}}) (-x_{i_{3}}) =  -\sum_{i_{1},i_{2}, i_{3}} \mathcal{A}_{i_{1}, i_{2}, i_{3}} x_{i_{1}} x_{i_{2}}x_{i_{3}},
 $$
+
 by which we observe that $\mathbf{x}$ and $-\mathbf{x}$ take different signs. This is why we model a hypergraph by an even-order uniform hypergraph.
 
 For the tensors constructed from the biclique kernel, we can show that the tensor is semi-definite. The other direction also holds, i.e., if the tensor is semi-definite, then for a $n$ data points, there exists $\phi$ that satisfies the biclique kernel.
@@ -177,11 +192,6 @@ Yes, the biclique kernel has many supports, like a Gaussian kernel for the graph
 ## Conclusion
 
 If you have once worked on hypergraph ML, you might have wondered how we can construct a hypergraph easily. Yes, the biclique kernel is there for you. With. Theories. 
-
-***
-Citation:
-
-If you find this piece useful, please cite our paper.
 
 
 
