@@ -8,11 +8,11 @@ I'm Shota, a Ph.D student at University College London. I work on graph machine 
 
 ## Education
 
-- Apr 2019 - present, Ph.D Student, 
+- 2019 - present, Ph.D Student, 
      Department of Computer Science, University College London.
      Supervisors: Prof. Mark Herbster and Prof. John Shawe-Taylor.
-- Apr 2012 - Mar 2015,  MSc, Department of Mathematical Informatics, The University of Tokyo
-- Apr 2008 - Mar 2012, BEng,
+- 2012 - 2015,  MSc, Department of Mathematical Informatics, The University of Tokyo
+- 2008 - 2012, BEng,
 Department of Mathematical Engineering and Information Physics, The University of Tokyo
 
 ## Work Experience
@@ -25,9 +25,11 @@ Department of Mathematical Engineering and Information Physics, The University o
 
 See the full list at [Google Scholar](https://scholar.google.com/citations?user=B4jqiWUAAAAJ)
 
-### Preprints
+### Workshops/Preprints
 
 - Stephen Pasteris, Alberto Rumi, Maximilian Thiessen, **Shota Saito**, Atsushi Miyauchi, Fabio Vitale and Mark Herbster.  Bandits with Abstention Under Expert Advice. 2024 [[arXiv](https://arxiv.org/abs/2402.14585)]
+
+- **Shota Saito**, Takanori Maehara, Mark Herbster. ResTran: A GNN Alternative to Learn A Graph with Features. In ICLR 2024 Workshop on Machine Learning for Genomics Explorations (MLGenX)  [[paper](https://openreview.net/forum?id=OXaWdXAhjW)]
 
 ### Conferences/Journals
 
