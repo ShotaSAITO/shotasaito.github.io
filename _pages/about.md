@@ -1,14 +1,15 @@
 ---
 permalink: /about/
-title: "About Me"
+title: "About"
 ---
 
-I'm Shota, a Ph.D student at University College London. I work on graph machine learning. For the details of the profile see my website.
+I'm Shota Saito, a Senior Software Engineer at Indeed, working on ML/AI. My research interests include graph machine learning, graph algorithms, and their mathematical foundations.
 
+I am interested in graph and hypergraph problems and how their mathematical structure can lead to useful machine learning methods.
 
 ## Education
 
-- 2019 - present, Ph.D Student, 
+- 2019 - Oct. 2024, Ph.D.,
      Department of Computer Science, University College London.
      Supervisors: Prof. Mark Herbster and Prof. John Shawe-Taylor.
 - 2012 - 2015,  MSc, Department of Mathematical Informatics, The University of Tokyo
@@ -16,22 +17,20 @@ I'm Shota, a Ph.D student at University College London. I work on graph machine 
 Department of Mathematical Engineering and Information Physics, The University of Tokyo
 
 ## Work Experience
+  - Oct. 2025 - present, Senior Software Engineer at Indeed
+  - Dec. 2024 - Sep. 2025, Software Engineer at Indeed
   - Jan. 2021 - Mar. 2021, Research Intern at Microsoft Research
-  - Sep. 2016 – Apr. 2019, Data Scientist at Amazon Web Services
-  - Apr. 2015 - Aug. 2016, Software Eingeer at DeNA Co., Ltd.
+  - Sep. 2016 - Apr. 2019, Data Scientist at Amazon Web Services
+  - Apr. 2015 - Aug. 2016, Software Engineer at DeNA Co., Ltd.
   - Jan. 2014 - Mar. 2014, Research Intern at IBM Research Tokyo
 
-## Publication
+## Publications
 
 See the full list at [Google Scholar](https://scholar.google.com/citations?user=B4jqiWUAAAAJ)
 
-### Workshops/Preprints
-
-- Stephen Pasteris, Alberto Rumi, Maximilian Thiessen, **Shota Saito**, Atsushi Miyauchi, Fabio Vitale and Mark Herbster.  Bandits with Abstention Under Expert Advice. 2024 [[arXiv](https://arxiv.org/abs/2402.14585)]
-
-- **Shota Saito**, Takanori Maehara, Mark Herbster. ResTran: A GNN Alternative to Learn A Graph with Features. In ICLR 2024 Workshop on Machine Learning for Genomics Explorations (MLGenX)  [[paper](https://openreview.net/forum?id=OXaWdXAhjW)]
-
 ### Conferences/Journals
+
+- Stephen Pasteris, Alberto Rumi, Maximilian Thiessen, **Shota Saito**, Atsushi Miyauchi, Fabio Vitale and Mark Herbster. Bandits with Abstention under Expert Advice. In Proc. NeurIPS, 2024. [[arXiv](https://arxiv.org/abs/2402.14585)] [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4343147340c9d65f4c780451eb066f9-Abstract-Conference.html)] [[OpenReview](https://openreview.net/forum?id=l04i6dPMxK)] [[video](https://neurips.cc/virtual/2024/poster/93858)] [[doi](https://doi.org/10.52202/079017-4005)] [[code](https://github.com/albertorumi/ContextualBanditsWithAbstention)]
 
 - **Shota Saito** and Mark Herbster. Multi-class Graph Clustering via Approximated Effective p-Resistance, In Proc. ICML, 29697-29733, 2023 [[arXiv](https://arxiv.org/abs/2306.08617)][[code](https://github.com/ShotaSAITO/approximated-presistance)][[poster](/assets/papers/icml23_poster.pdf)][[link](https://proceedings.mlr.press/v202/saito23a.html)][[video](https://icml.cc/virtual/2023/poster/24115)]
 
@@ -45,7 +44,8 @@ See the full list at [Google Scholar](https://scholar.google.com/citations?user=
 
 -  **Shota Saito**, Ryota Tomioka, and Kenji Yamanishi. Early Detection of Persistent Topics in Social Networks. Soc. Netw. Anal. Min. 5(19), pp.1-15, 2015 [[pdf](/assets/papers/snam15.pdf)]
 
+### Workshops/Preprints
 
-### Workshops
+- **Shota Saito**, Takanori Maehara, Mark Herbster. ResTran: A GNN Alternative to Learn A Graph with Features. In ICLR 2024 Workshop on Machine Learning for Genomics Explorations (MLGenX) [[paper](https://openreview.net/forum?id=OXaWdXAhjW)]
 
- - **Shota Saito**, Yohei Ikawa, Hideyuki Suzuki and Akiko Murakami. Early Detection of Disasters with Contextual Information on Twitter. IEICE Tech. Rep., vol. 114, no. 81, NLC2014--2, pp. 7--12, 2014. (in Japanese) [[pdf](/assets/papers/nlc14.pdf)]
+- **Shota Saito**, Yohei Ikawa, Hideyuki Suzuki and Akiko Murakami. Early Detection of Disasters with Contextual Information on Twitter. IEICE Tech. Rep., vol. 114, no. 81, NLC2014--2, pp. 7--12, 2014. (in Japanese) [[pdf](/assets/papers/nlc14.pdf)]

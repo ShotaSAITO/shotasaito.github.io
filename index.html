@@ -1,7 +1,34 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: single
 author_profile: true
 ---
+
+<p>
+  I'm Shota Saito, a Senior Software Engineer at Indeed, working on ML/AI. My
+  research interests include graph machine learning, graph algorithms, and
+  their mathematical foundations.
+</p>
+
+<p>
+  I am interested in understanding the structure of graph and hypergraph
+  problems, and in turning that understanding into useful methods. On this
+  site, I write about these ideas and related topics in machine learning.
+</p>
+
+<p>
+  <a href="{{ '/writing/' | relative_url }}" class="btn btn--primary">Read my writing</a>
+  <a href="{{ '/about/' | relative_url }}#publications" class="btn">View publications</a>
+</p>
+
+<h2>Recent writing</h2>
+
+<ul class="post-list">
+  {% for post in site.posts limit: 3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.date %}<small>{{ post.date | date: "%B %-d, %Y" }}</small>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/writing/' | relative_url }}">See all writing &rarr;</a></p>
